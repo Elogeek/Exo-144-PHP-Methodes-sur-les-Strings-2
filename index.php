@@ -43,7 +43,7 @@ $chaine2 = strip_tags($chaine2);
 echo $chaine2. "<br>";
 
 //exo 8
-$chaine3 = "Hello,je suis fatiguée sans café ! <br>";
+$chaine3 = "Hello,je suis fatiguée sans café !"."<br>";
 
 if(strlen($chaine3) < 500) {
     echo "|".$chaine3;
